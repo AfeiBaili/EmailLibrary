@@ -1,4 +1,4 @@
-package cn.afeibaili.ipv6toipv4.cn.afeibaili.mail
+package cn.afeibaili.mail
 
 import jakarta.mail.*
 import jakarta.mail.internet.InternetAddress
@@ -40,6 +40,5 @@ class EmailSender(
         message.setContent(mail.content, "text/html; charset=utf-8")
 
         Transport.send(message)
-        println("发送一个邮件：${mail}")
     }
 }

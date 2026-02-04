@@ -1,4 +1,4 @@
-package cn.afeibaili.ipv6toipv4.cn.afeibaili.mail
+package cn.afeibaili.mail
 
 import java.util.*
 
